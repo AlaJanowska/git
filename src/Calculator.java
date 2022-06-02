@@ -10,12 +10,17 @@ public class Calculator {
         System.out.println("Podaj drugą liczbę: ");
         int secondNumber = numberScanner.nextInt();
 
-        //wyniki
-        System.out.println("Wynik dodawania: " + (firstNumber + secondNumber));
-        System.out.println("Wynik odejmowania: " + (firstNumber - secondNumber));
-        System.out.println("Wynik mnożenia: " + (firstNumber * secondNumber));
-        System.out.println("Wynik dzielenia: " + (firstNumber / secondNumber));
-        System.out.println("Wynik modulo: " + (firstNumber%secondNumber));
+        int addition = firstNumber + secondNumber;
+        int subtraction = firstNumber - secondNumber;
+        int multiple = firstNumber * secondNumber;
+        int division = firstNumber / secondNumber;
+        int modulo = firstNumber%secondNumber;
+
+        System.out.println("Wynik dodawania: " + addition);
+        System.out.println("Wynik odejmowania: " + subtraction);
+        System.out.println("Wynik mnożenia: " + multiple);
+        System.out.println("Wynik dzielenia: " + division);
+        System.out.println("Wynik modulo: " + modulo);
 
 
     }
