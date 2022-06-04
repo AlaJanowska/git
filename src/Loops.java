@@ -22,10 +22,10 @@ public class Loops {
 //        }
 
         /** do while loop */
-        int number = 15;
+        int number2 = 15;
         do {
-            System.out.println("liczba " + number + " jest mniejsza od 10");
-            number++;
-        }while (number < 10);
+            System.out.println("liczba " + number2 + " jest mniejsza od 10");
+            number2++;
+        }while (number2 < 10);
     }
 }
