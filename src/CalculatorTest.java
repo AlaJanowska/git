@@ -11,11 +11,15 @@ public class CalculatorTest {
         int secondNumber = numberScanner.nextInt();
 
         Calculator calc = new Calculator();
-        calc.addition(firstNumber,secondNumber);
-        calc.subtraction(firstNumber,secondNumber);
-        calc.multiple(firstNumber,secondNumber);
-        calc.division(firstNumber,secondNumber);
+        int addition = calc.addition(firstNumber, secondNumber);
+        int subtraction = calc.subtraction(firstNumber, secondNumber);
+        int multiple = calc.multiple(firstNumber, secondNumber);
+        int division = calc.division(firstNumber, secondNumber);
 
-
+        System.out.println("Dodawanie: " + addition);
+        System.out.println("Odejmowanie: " + subtraction);
+        System.out.println("Mnożenie: " + multiple);
+        System.out.println("Dzieleni: " + division);
     }
+
 }
