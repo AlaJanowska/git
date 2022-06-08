@@ -4,6 +4,13 @@ public class Car {
     public int rok;
     public int przebieg;
 
+    /**konstruktor - najlepiej dodać między deklaracją zmiennych a metodami */
+    public Car(String marka, String model, int rok, int przebieg){
+        this.marka = marka;
+        this.model = model;
+        this.rok = rok;
+        this.przebieg = przebieg;
+    }
     public void jedz () {
         System.out.println("jedź");
     }
