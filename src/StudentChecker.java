@@ -3,6 +3,9 @@ public class StudentChecker {
     //zadanie - stwórz 3 obiekty klasy Student. przypisz wartości do pol. Stwórz tablicę i dodaj studentów do tablicy, uruchom na nich metody.
 
     public static void main(String[] args) {
+
+        String uczelnia = Student.nazwaUczelni;
+
         Student s1 = new Student();
         s1.name = "Alicja";
         s1.secondName = "Łazarska";
@@ -25,6 +28,7 @@ public class StudentChecker {
 
         for (int i = 0; i < studentArray.length; i++) {
             studentArray[i].przedstawSie();
+            Student.infoUczelnia();
 
         }
 

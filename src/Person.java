@@ -3,11 +3,16 @@ public class Person {
     public int age;
 
     public Person(String name, int age) {
+        System.out.println("jestem w konstruktorze Person");
         this.name = name;
         this.age = age;
     }
 
-    public void przedstawSie() {
-        System.out.println("Jestem " + name + " i mam " + age + " lat");
+    public void eat() {
+        System.out.println("I'm eating");
+    }
+
+    public void walk() {
+        System.out.println("I'm walking");
     }
 }
