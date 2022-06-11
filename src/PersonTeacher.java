@@ -10,4 +10,8 @@ public class PersonTeacher extends Person {
     public void teachMath(){
         System.out.println("I'm teaching Math.");
     }
+
+    public void walk(){
+        System.out.println("I prefer running.");
+    }
 }

@@ -11,4 +11,8 @@ public class PersonFootballer extends Person {
     public void playFootball(){
         System.out.println("I'm " + name + " and I'm " + age + ". I'm playing football");
     }
+
+    public void eat(){
+        System.out.println("I prefer healthy food.");
+    }
 }
