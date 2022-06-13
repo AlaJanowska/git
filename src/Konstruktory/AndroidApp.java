@@ -1,3 +1,5 @@
+package Konstruktory;
+
 public class AndroidApp extends App{
 
     public AndroidApp(String name) {
@@ -6,6 +8,6 @@ public class AndroidApp extends App{
     }
 
     public void runAndroidApp(){
-        System.out.println("Run Android App");
+        System.out.println("Run Android Konstruktory.App");
     }
 }

@@ -1,3 +1,5 @@
+import Drivers.Vehicle;
+
 public class Car {
     public String marka;
     public String model;

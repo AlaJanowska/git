@@ -1,3 +1,5 @@
+package Konstruktory;
+
 public class Student {
     public String name;
     public String secondName;

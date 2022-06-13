@@ -1,4 +1,8 @@
-public class IphoneApp extends App{
+package Konstruktory;
+
+import Konstruktory.App;
+
+public class IphoneApp extends App {
 
     public IphoneApp(String name) {
         super(name);
@@ -6,6 +10,6 @@ public class IphoneApp extends App{
     }
 
     public void runIphoneApp(){
-        System.out.println("Run Iphone App");
+        System.out.println("Run Iphone Konstruktory.App");
     }
 }

@@ -1,6 +1,8 @@
+package Konstruktory;
+
 public class StudentChecker {
 
-    //zadanie - stwórz 3 obiekty klasy Student. przypisz wartości do pol. Stwórz tablicę i dodaj studentów do tablicy, uruchom na nich metody.
+    //zadanie - stwórz 3 obiekty klasy Konstruktory.Student. przypisz wartości do pol. Stwórz tablicę i dodaj studentów do tablicy, uruchom na nich metody.
 
     public static void main(String[] args) {
 

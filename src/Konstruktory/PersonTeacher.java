@@ -1,9 +1,11 @@
+package Konstruktory;
+
 public class PersonTeacher extends Person {
     public String schoolName;
 
     public PersonTeacher(String name, int age, String nazwaUczelni) {
         super(name, age);
-        System.out.println("jestem w konstruktorze PersonTeacher");
+        System.out.println("jestem w konstruktorze Konstruktory.PersonTeacher");
         this.schoolName = nazwaUczelni;
     }
 

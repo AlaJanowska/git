@@ -1,3 +1,5 @@
+package Konstruktory;
+
 public class PersonTest {
     public static void main(String[] args) {
         PersonTeacher p1 = new PersonTeacher("ala", 26,"UE");
