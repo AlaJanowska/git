@@ -1,4 +1,4 @@
-package Konstruktory;
+package konstruktory;
 
 public class PersonTeacher extends Person {
     public String schoolName;

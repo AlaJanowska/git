@@ -1,4 +1,4 @@
-package Konstruktory;
+package konstruktory;
 
 public class Person {
     public String name;

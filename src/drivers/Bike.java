@@ -1,8 +1,8 @@
-package Drivers;
+package drivers;
 
 public class Bike implements Vehicle{
     @Override
-    public void jedź(int speed) {
+    public void jedz(int speed) {
         System.out.println("Rower jedzie z prędkością: " + speed);
     }
 

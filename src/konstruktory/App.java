@@ -1,4 +1,4 @@
-package Konstruktory;//stworzyć klasę bazową Konstruktory.App - zawiera pole name i metodę appInfo, dodaj konstrukotr do któego przekażesz wartość name
+package konstruktory;//stworzyć klasę bazową Konstruktory.App - zawiera pole name i metodę appInfo, dodaj konstrukotr do któego przekażesz wartość name
 // stwórz klasę potomną Konstruktory.AndroidApp i Konstruktory.IphoneApp - zawiera metode runAndroidApp / runIphoneApp
 
 public class App {

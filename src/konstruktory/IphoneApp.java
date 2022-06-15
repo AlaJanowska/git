@@ -1,6 +1,4 @@
-package Konstruktory;
-
-import Konstruktory.App;
+package konstruktory;
 
 public class IphoneApp extends App {
 
