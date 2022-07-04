@@ -13,6 +13,7 @@ public class VechicleTest {
         vehicleInfo(pojazd, 50);
     }
 
+
     private static void vehicleInfo(Vehicle vehicle,int speed){
         vehicle.info();
         vehicle.jedz(speed);
@@ -30,3 +31,4 @@ public class VechicleTest {
         }
     }
 }
+

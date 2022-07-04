@@ -20,6 +20,6 @@ public class CalculatorTest {
         System.out.println("Odejmowanie: " + subtraction);
         System.out.println("Mnożenie: " + multiple);
         System.out.println("Dzieleni: " + division);
-    }
 
+    }
 }
