@@ -13,7 +13,7 @@ public class Bike implements Vehicle{
 
     @Override
     public void info() {
-        System.out.println("Rower");
+        System.out.println("Pojazd: Rower");
     }
 
 }

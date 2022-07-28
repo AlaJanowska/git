@@ -15,7 +15,7 @@ public class Car implements Vehicle{
 
     @Override
     public void info() {
-            System.out.println("Auto");
+            System.out.println("Pojazd: Auto");
     }
 
     public void cos(){
